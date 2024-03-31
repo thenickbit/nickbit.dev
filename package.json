@@ -14,8 +14,7 @@
     "lint:fix": "biome lint . --apply",
     "format": "biome format --write .",
     "ui:add": "bunx shadcn-ui@latest add",
-    "ui:diff": "bunx shadcn-ui@latest diff",
-    "supabase": "supabase"
+    "ui:diff": "bunx shadcn-ui@latest diff"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
@@ -24,8 +23,6 @@
     "@remix-run/cloudflare": "^2.8.1",
     "@remix-run/cloudflare-pages": "^2.8.1",
     "@remix-run/react": "^2.8.1",
-    "@supabase/ssr": "^0.1.0",
-    "@supabase/supabase-js": "^2.39.8",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "input-otp": "^1.2.2",
@@ -51,7 +48,6 @@
     "node-fetch": "^3.3.2",
     "postcss": "^8.4.38",
     "remix-development-tools": "^4.1.4",
-    "supabase": "^1.151.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.1.6",
     "vite": "^5.1.0",
